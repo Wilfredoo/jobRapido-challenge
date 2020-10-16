@@ -1,0 +1,117 @@
+{
+  "job1": {
+    "_id": "5f88364fc3d1db0016726f20",
+    "city": "Manhattan",
+    "createdAt": "2020-10-15T11:45:19.220+00:00",
+    "jobType": "limpiadores",
+    "hourPay": "15",
+    "employer": "Hotel",
+    "address": "vaya en persona a  515 West 145th Street",
+    "phone": "212-368-9915",
+    "area": "Manhattan"
+  },
+  "job2": {
+    "area": "Brooklyn",
+    "phone": "013479873194",
+    "hourPay": "14",
+    "employer": "Mias Bakery",
+    "jobType": "counter person",
+    "address": "139 Smith St, Brooklyn",
+    "_id": "5f8835d6c3d1db0016726f1f",
+    "createdAt": "2020-10-15T11:43:18.776+00:00"
+  },
+  "job3": {
+    "_id": "5f87fde4c3d1db0016726f1e",
+    "employer": "deli italiano / americano",
+    "address": "2841 Harway Avenue",
+    "area": "Bronx",
+    "createdAt": "2020-10-15T07:44:36.181+00:00",
+    "jobType": "panadero / decorador de pastel",
+    "hourPay": "15.50 - 20 la hora",
+    "phone": "+1 718-373-3700",
+    "extraInfo": "mande un correo a vinny.breadplus@gmail.com"
+  },
+  "job4": {
+    "_id": "5f874acc7603bd00167e04a4",
+    "employer": "Pro Wash Auto Spa",
+    "phone": "203-456-6827",
+    "createdAt": "2020-10-14T19:00:28.515+00:00",
+    "schedule": "flexible",
+    "jobType": "Car Wash Worker",
+    "typePay": "Check",
+    "contact": "Fredy",
+    "address": "27 Padanaram Road ",
+    "otherArea": "Danbury Connecticut",
+    "hourPay": "$13 per hour",
+    "area": "Manhattan"
+  },
+  "job5": {
+    "employer": "cleraning services",
+    "typePay": "Cash",
+    "jobType": "hombre y mujer",
+    "hourPay": "780",
+    "contact": "Agustin Lara",
+    "area": "Queens",
+    "phone": "463-205-3647",
+    "_id": "5f8723967603bd00167e04a3",
+    "createdAt": "2020-10-13T20:56:00.698+00:00"
+  },
+  "job6": {
+    "_id": "5f88364fc3d1db0016726f20",
+    "city": "Manhattan",
+    "createdAt": "2020-10-15T11:45:19.220+00:00",
+    "jobType": "limpiadores",
+    "hourPay": "15",
+    "employer": "Hotel",
+    "address": "vaya en persona a  515 West 145th Street",
+    "phone": "212-368-9915",
+    "area": "Manhattan"
+
+  },
+  "job7": {
+    "area": "Brooklyn",
+    "phone": "013479873194",
+    "hourPay": "14",
+    "employer": "Mias Bakery",
+    "jobType": "counter person",
+    "address": "139 Smith St, Brooklyn",
+    "_id": "5f8835d6c3d1db0016726f1f",
+    "createdAt": "2020-10-15T11:43:18.776+00:00"
+  },
+  "job8": {
+    "_id": "5f87fde4c3d1db0016726f1e",
+    "employer": "deli italiano / americano",
+    "address": "2841 Harway Avenue",
+    "area": "Bronx",
+    "createdAt": "2020-10-15T07:44:36.181+00:00",
+    "jobType": "panadero / decorador de pastel",
+    "hourPay": "15.50 - 20 la hora",
+    "phone": "+1 718-373-3700",
+    "extraInfo": "mande un correo a vinny.breadplus@gmail.com"
+  },
+  "job9": {
+    "_id": "5f874acc7603bd00167e04a4",
+    "employer": "Pro Wash Auto Spa",
+    "phone": "203-456-6827",
+    "createdAt": "2020-10-14T19:00:28.515+00:00",
+    "schedule": "flexible",
+    "jobType": "Car Wash Worker",
+    "typePay": "Check",
+    "contact": "Fredy",
+    "address": "27 Padanaram Road ",
+    "otherArea": "Danbury Connecticut",
+    "hourPay": "$13 per hour",
+    "area": "Manhattan"
+  },
+  "job10": {
+    "employer": "cleraning services",
+    "typePay": "Cash",
+    "jobType": "hombre y mujer",
+    "hourPay": "780",
+    "contact": "Agustin Lara",
+    "area": "Queens",
+    "phone": "463-205-3647",
+    "_id": "5f8723967603bd00167e04a3",
+    "createdAt": "2020-10-13T20:56:00.698+00:00"
+  }
+}

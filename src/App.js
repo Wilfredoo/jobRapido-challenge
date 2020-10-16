@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import "./App.css";
+import jobs from "./jobs.json";
+import moment from "moment";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>JobDirecto Challenge</h1>
+      <h2>Jobs in New York</h2>
+      <div className="allPosts">
+        {Object.entries(jobs).map(([key, value]) => {
+          return (
+            <div className="jobPost" key={value._id}>
+              <p className="text employer">{value.employer}</p>
+              <p className="text jobType">{value.jobType}</p>
+              <p className="text area">{value.area}</p>
+              <p className="text createdAt">{moment(value.createdAt).fromNow()}</p>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
