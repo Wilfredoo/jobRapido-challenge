@@ -6,8 +6,8 @@ import moment from "moment";
 function App() {
   return (
     <div className="App">
-      <h1>JobDirecto Challenge</h1>
-      <h2>Jobs in New York</h2>
+      <h1>JobRapido Challenge</h1>
+      <h2>Jobs in New Hampshire</h2>
       <div className="allPosts">
         {Object.entries(jobs).map(([key, value]) => {
           return (
